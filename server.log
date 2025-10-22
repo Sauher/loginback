@@ -1,0 +1,18 @@
+[2025-22-10 12:06:47] [32minfo[39m : Server listening on port: 3000
+[2025-22-10 12:06:51] [32minfo[39m : Server listening on port: 3000
+[2025-22-10 12:06:58] [32minfo[39m : Server listening on port: 3000
+[2025-22-10 12:07:06] [32minfo[39m : Server listening on port: 3000
+[2025-22-10 12:07:07] [32minfo[39m : Server listening on port: 3000
+[2025-22-10 12:07:19] [31merror[39m : [DB - ERROR] ER_NO_SUCH_TABLE: Table '13a_katica.categories' doesn't exist
+[2025-22-10 12:07:52] [32minfo[39m : [GET /kategoria] - 5 record(s) affected.  2ms
+[2025-22-10 12:07:57] [32minfo[39m : [GET /forgalom] - 13 record(s) affected.  3ms
+[2025-22-10 12:08:03] [32minfo[39m : [GET /termek] - 3 record(s) affected.  3ms
+[2025-22-10 12:09:23] [32minfo[39m : Server listening on port: 3000
+[2025-22-10 12:09:27] [32minfo[39m : [GET /termek/1] - 1 record(s) affected.  20ms
+[2025-22-10 12:14:23] [32minfo[39m : Server listening on port: 3000
+[2025-22-10 12:17:05] [32minfo[39m : Server listening on port: 3000
+[2025-22-10 12:17:22] [32minfo[39m : Server listening on port: 3000
+[2025-22-10 12:17:27] [32minfo[39m : [GET /termek/1] - 1 record(s) affected.  20ms
+[2025-22-10 12:17:29] [32minfo[39m : [GET /termek] - 3 record(s) affected.  2ms
+[2025-22-10 12:17:32] [32minfo[39m : [GET /termek/5] - 0 record(s) affected.  1ms
+[2025-22-10 12:17:36] [32minfo[39m : [GET /termek/3] - 1 record(s) affected.  2ms

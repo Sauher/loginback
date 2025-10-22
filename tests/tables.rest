@@ -1,0 +1,36 @@
+@host = http://localhost
+
+@port = 3000
+
+@url = {{host}}:{{port}}
+
+### GET records from table
+GET {{url}}/termek
+Content-Type: application/json
+
+
+### GET one user by ID
+
+GET {{url}}/termek/3
+Content-Type: application/json
+
+### DELETE user by id
+
+DELETE {{url}}/users/3
+Content-Type: application/json
+
+### POST user
+
+POST {{url}}/users
+Content-Type: application/json
+
+{
+    "nev": "Egyéb"
+}
+### UPDATE user by id
+PATCH {{url}}/users/3
+Content-Type: application/json
+
+{
+    "nev": "Desszertek"
+}
