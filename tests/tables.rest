@@ -9,28 +9,62 @@ GET {{url}}/termek
 Content-Type: application/json
 
 
-### GET one user by ID
+### GET one record by ID
 
-GET {{url}}/termek/3
+GET {{url}}/termek/4
 Content-Type: application/json
 
-### DELETE user by id
+### POST new record
 
-DELETE {{url}}/users/3
-Content-Type: application/json
-
-### POST user
-
-POST {{url}}/users
+POST {{url}}/termek
 Content-Type: application/json
 
 {
-    "nev": "Egyéb"
+ "termek": "Boci Csoki",
+ "kategoriaNev": "Desszertek",
+ "nettoAr": 515,
+ "egyseg": "db"
 }
+
+### DELETE user
+
+DELETE  {{url}}/termek/4
+Content-Type: application/json
+
 ### UPDATE user by id
-PATCH {{url}}/users/3
+PATCH {{url}}/termek/5
 Content-Type: application/json
 
 {
-    "nev": "Desszertek"
+    "termek": "Boci csoki",
+    "kategoriaNev": "Desszertek",
+    "nettoAr": 500,
+    "egyseg": "db"
 }
+
+### LOGIN
+
+POST {{url}}/users/login
+Content-Type: application/json
+
+{
+    "email": "Béla@teszt.hu",
+    "password": "jelszo123"
+}
+
+### REGISTER
+
+POST {{url}}/users/registration
+Content-Type: application/json
+
+{
+    "name": "Béla",
+    "email": "Béla@teszt.hu",
+    "password": "jelszo123",
+    "confirm": "jelszo123"
+}
+
+### UNIVWRSGAL
+
+GET  {{url}}/users/role/like/admin
+Content-Type: application/json

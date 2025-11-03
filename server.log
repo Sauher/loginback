@@ -16,3 +16,64 @@
 [2025-22-10 12:17:29] [32minfo[39m : [GET /termek] - 3 record(s) affected.  2ms
 [2025-22-10 12:17:32] [32minfo[39m : [GET /termek/5] - 0 record(s) affected.  1ms
 [2025-22-10 12:17:36] [32minfo[39m : [GET /termek/3] - 1 record(s) affected.  2ms
+[2025-03-11 09:33:47] [32minfo[39m : Server listening on port: 3000
+[2025-03-11 09:34:14] [31merror[39m : [DB - ERROR] ER_BAD_FIELD_ERROR: Unknown column 'katgoriaNev' in 'field list'
+[2025-03-11 09:34:23] [32minfo[39m : [POST /termek] - 1 record(s) affected.  3ms
+[2025-03-11 09:39:40] [32minfo[39m : Server listening on port: 3000
+[2025-03-11 09:58:58] [32minfo[39m : Server listening on port: 3000
+[2025-03-11 09:59:56] [31merror[39m : [DB - ERROR] ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'csoki,kategoriaNev= Desszertek,nettoAr= 500,egyseg= db WHERE termek='4'' at line 1
+[2025-03-11 10:00:31] [31merror[39m : [DB - ERROR] ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'csoki,kategoriaNev= Desszertek,nettoAr= 500,egyseg= db WHERE termek='4'' at line 1
+[2025-03-11 10:01:01] [32minfo[39m : Server listening on port: 3000
+[2025-03-11 10:01:05] [31merror[39m : [DB - ERROR] ER_NO_SUCH_TABLE: Table '13a_katica.termekek' doesn't exist
+[2025-03-11 10:01:15] [32minfo[39m : [PATCH /termek/4] - 0 record(s) affected.  2ms
+[2025-03-11 10:02:00] [32minfo[39m : Server listening on port: 3000
+[2025-03-11 10:02:03] [32minfo[39m : [PATCH /termek/4] - 1 record(s) affected.  19ms
+[2025-03-11 10:02:19] [32minfo[39m : [GET /termek] - 4 record(s) affected.  2ms
+[2025-03-11 10:02:28] [32minfo[39m : [GET /termek/3] - 1 record(s) affected.  1ms
+[2025-03-11 10:02:31] [32minfo[39m : [GET /termek/4] - 1 record(s) affected.  2ms
+[2025-03-11 10:03:17] [32minfo[39m : [DELETE /termek/5] - 0 record(s) affected.  1ms
+[2025-03-11 10:03:24] [32minfo[39m : [DELETE /termek/4] - 1 record(s) affected.  4ms
+[2025-03-11 10:03:28] [32minfo[39m : [POST /termek] - 1 record(s) affected.  2ms
+[2025-03-11 10:03:29] [32minfo[39m : [PATCH /termek/4] - 0 record(s) affected.  1ms
+[2025-03-11 10:03:39] [32minfo[39m : [PATCH /termek/5] - 1 record(s) affected.  2ms
+[2025-03-11 10:04:27] [32minfo[39m : Server listening on port: 3000
+[2025-03-11 10:04:37] [32minfo[39m : Server listening on port: 3000
+[2025-03-11 10:14:36] [32minfo[39m : Server listening on port: 3000
+[2025-03-11 10:15:43] [32minfo[39m : Server listening on port: 3000
+[2025-03-11 11:05:52] [32minfo[39m : Server listening on port: 3000
+[2025-03-11 11:10:21] [32minfo[39m : Server listening on port: 3000
+[2025-03-11 11:10:23] [32minfo[39m : [POST /users/login] - 2 record(s) affected.  18ms
+[2025-03-11 11:11:10] [32minfo[39m : [POST /users/login] - 2 record(s) affected.  2ms
+[2025-03-11 11:11:29] [32minfo[39m : [POST /users/login] - 1 record(s) affected.  1ms
+[2025-03-11 11:17:07] [32minfo[39m : Server listening on port: 3000
+[2025-03-11 11:18:55] [32minfo[39m : Server listening on port: 3000
+[2025-03-11 11:20:11] [32minfo[39m : Server listening on port: 3000
+[2025-03-11 11:20:26] [32minfo[39m : Server listening on port: 3000
+[2025-03-11 11:22:21] [32minfo[39m : Server listening on port: 3000
+[2025-03-11 11:24:17] [32minfo[39m : [POST /users/registration] - 1 record(s) affected.  18ms
+[2025-03-11 11:24:36] [32minfo[39m : [POST /users/login] - 1 record(s) affected.  2ms
+[2025-03-11 11:52:29] [32minfo[39m : Server listening on port: 3000
+[2025-03-11 11:52:40] [32minfo[39m : [POST /users/login] - 0 record(s) affected.  17ms
+[2025-03-11 11:52:52] [32minfo[39m : [POST /users/login] - 1 record(s) affected.  2ms
+[2025-03-11 11:53:21] [32minfo[39m : Server listening on port: 3000
+[2025-03-11 11:54:14] [32minfo[39m : Server listening on port: 3000
+[2025-03-11 11:56:23] [32minfo[39m : Server listening on port: 3000
+[2025-03-11 11:57:48] [32minfo[39m : Server listening on port: 3000
+[2025-03-11 11:58:30] [32minfo[39m : Server listening on port: 3000
+[2025-03-11 11:58:58] [32minfo[39m : Server listening on port: 3000
+[2025-03-11 12:02:45] [32minfo[39m : Server listening on port: 3000
+[2025-03-11 12:04:49] [32minfo[39m : Server listening on port: 3000
+[2025-03-11 12:05:16] [32minfo[39m : Server listening on port: 3000
+[2025-03-11 12:05:23] [32minfo[39m : Server listening on port: 3000
+[2025-03-11 12:09:38] [32minfo[39m : Server listening on port: 3000
+[2025-03-11 12:14:13] [32minfo[39m : Server listening on port: 3000
+[2025-03-11 12:21:01] [32minfo[39m : Server listening on port: 3000
+[2025-03-11 12:21:55] [32minfo[39m : Server listening on port: 3000
+[2025-03-11 12:22:22] [32minfo[39m : Server listening on port: 3000
+[2025-03-11 12:22:39] [32minfo[39m : Server listening on port: 3000
+[2025-03-11 12:22:58] [32minfo[39m : Server listening on port: 3000
+[2025-03-11 12:23:50] [32minfo[39m : Server listening on port: 3000
+[2025-03-11 12:24:52] [32minfo[39m : Server listening on port: 3000
+[2025-03-11 12:27:02] [32minfo[39m : Server listening on port: 3000
+[2025-03-11 12:28:29] [31merror[39m : [DB - ERROR] ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''role'' at line 1
+[2025-03-11 12:28:47] [31merror[39m : [DB - ERROR] ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''role'' at line 1
