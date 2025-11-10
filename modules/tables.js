@@ -2,10 +2,21 @@ const express = require('express')
 const router = express.Router();
 const {query}  = require('../utils/database'    )
 const logger = require('../utils/logger')
+const multer  = require('multer')
 var SHA1 = require("crypto-js/sha1");
 const passwdRegExp = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$/;
  
- 
+const storage = multer.diskStorage({
+  destination: function (req, file, cb) {
+    cb(null, '/uploads')
+  },
+  filename: function (req, file, cb) {
+    const uniqueSuffix = Date.now() + '-' + Math.round(Math.random() * 1E9)
+    cb(null, file.fieldname + '-' + uniqueSuffix)
+  }
+})
+
+const upload = multer({ storage: storage })
 
 // Select all from: table
 router.get('/:table',(req,res)=>{
