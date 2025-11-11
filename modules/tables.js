@@ -4,6 +4,7 @@ const {query}  = require('../utils/database'    )
 const logger = require('../utils/logger')
 const multer  = require('multer')
 const path = require("path")
+const fs = require("fs")
 var SHA1 = require("crypto-js/sha1");
 const passwdRegExp = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$/;
  
@@ -159,6 +160,19 @@ router.get('/:table/:id',(req,res)=>{
         if (error) throw res.status(500).json({error:error.message});
         res.status(200).json(results)
     }, req);
+})
+
+//DELETE uploaded file
+router.delete('/image/:filename',(req,res) =>{
+    let filename = req.params.filename
+    let pathname = path.join(__dirname, '../uploads/')
+
+    fs.unlink(pathname+filename, (err) =>{
+        if(err){
+            return res.status(500).json({error: 'A fájl törlése sikertelen'})
+        }
+        return res.status(200).json({message: 'A kép törölve!'})
+    })
 })
 
 
