@@ -3,16 +3,18 @@ const router = express.Router();
 const {query}  = require('../utils/database'    )
 const logger = require('../utils/logger')
 const multer  = require('multer')
+const path = require("path")
 var SHA1 = require("crypto-js/sha1");
 const passwdRegExp = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$/;
  
 const storage = multer.diskStorage({
   destination: function (req, file, cb) {
-    cb(null, '/uploads')
+    cb(null, './uploads')
   },
   filename: function (req, file, cb) {
     const uniqueSuffix = Date.now() + '-' + Math.round(Math.random() * 1E9)
-    cb(null, file.fieldname + '-' + uniqueSuffix)
+    const ext = path.extname(file.originalname)
+    cb(null, file.fieldname + '-' + uniqueSuffix + ext)
   }
 })
 
@@ -50,6 +52,14 @@ router.get('/:table/:field/:op/:value',(req,res)=>{
         if (error) throw res.status(500).json({error:error.message});
         res.status(200).json(results)
     }, req);
+})
+
+// Fájl feltöltés
+router.post('/upload',upload.single("image"),(req,res)=>{
+    if(!req.file){
+        return res.status(500).json({error:"Nincs fájl feltöltve!"});
+    }
+    res.status(200).json({message: "Sikeres feltöltés!",filename: req.file.filename,path: "/uploads"})
 })
 
 //LOGIN
@@ -150,6 +160,7 @@ router.get('/:table/:id',(req,res)=>{
         res.status(200).json(results)
     }, req);
 })
+
 
 
 

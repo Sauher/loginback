@@ -225,3 +225,52 @@
 [2025-10-11 10:33:18] [32minfo[39m : [GET /pizzas] - 8 record(s) affected.  1ms
 [2025-10-11 10:33:41] [32minfo[39m : [GET /pizzas] - 8 record(s) affected.  0ms
 [2025-10-11 12:05:36] [32minfo[39m : [GET /pizzas] - 8 record(s) affected.  1ms
+[2025-11-11 08:37:16] [32minfo[39m : Server listening on port: 3000
+[2025-11-11 09:23:44] [31merror[39m : [DB - ERROR] connect ECONNREFUSED ::1:3306
+[2025-11-11 09:24:40] [32minfo[39m : Server listening on port: 3000
+[2025-11-11 09:24:44] [31merror[39m : [DB - ERROR] connect ECONNREFUSED ::1:3306
+[2025-11-11 09:25:04] [32minfo[39m : Server listening on port: 3000
+[2025-11-11 09:25:06] [32minfo[39m : [POST /users/registration] - 0 record(s) affected.  55ms
+[2025-11-11 09:25:06] [32minfo[39m : [POST /users/registration] - 1 record(s) affected.  4ms
+[2025-11-11 09:25:17] [32minfo[39m : [POST /users/login] - 1 record(s) affected.  2ms
+[2025-11-11 09:25:32] [32minfo[39m : [POST /users/login] - 0 record(s) affected.  1ms
+[2025-11-11 09:25:37] [32minfo[39m : [POST /users/login] - 0 record(s) affected.  1ms
+[2025-11-11 09:26:26] [32minfo[39m : [POST /users/login] - 1 record(s) affected.  1ms
+[2025-11-11 09:26:28] [32minfo[39m : [GET /pizzas] - 8 record(s) affected.  1ms
+[2025-11-11 09:26:51] [32minfo[39m : [GET /pizzas/name/eq/Storm] - 0 record(s) affected.  2ms
+[2025-11-11 09:26:51] [32minfo[39m : [POST /pizzas] - 1 record(s) affected.  2ms
+[2025-11-11 09:26:51] [32minfo[39m : [GET /pizzas] - 9 record(s) affected.  1ms
+[2025-11-11 09:29:05] [32minfo[39m : Server listening on port: 3000
+[2025-11-11 09:29:13] [32minfo[39m : [GET /pizzas/name/eq/ggf] - 0 record(s) affected.  20ms
+[2025-11-11 09:29:13] [32minfo[39m : [POST /pizzas] - 1 record(s) affected.  2ms
+[2025-11-11 09:29:13] [32minfo[39m : [GET /pizzas] - 10 record(s) affected.  2ms
+[2025-11-11 09:33:07] [32minfo[39m : [GET /pizzas] - 10 record(s) affected.  2ms
+[2025-11-11 09:34:22] [32minfo[39m : [GET /pizzas] - 10 record(s) affected.  1ms
+[2025-11-11 09:34:30] [32minfo[39m : [GET /pizzas] - 10 record(s) affected.  1ms
+[2025-11-11 09:36:03] [32minfo[39m : [GET /pizzas] - 10 record(s) affected.  1ms
+[2025-11-11 09:37:00] [32minfo[39m : Server listening on port: 3000
+[2025-11-11 09:37:03] [32minfo[39m : Server listening on port: 3000
+[2025-11-11 09:37:10] [32minfo[39m : [GET /pizzas/name/eq/sfd] - 0 record(s) affected.  19ms
+[2025-11-11 09:37:10] [32minfo[39m : [POST /pizzas] - 1 record(s) affected.  2ms
+[2025-11-11 09:37:10] [32minfo[39m : [GET /pizzas] - 11 record(s) affected.  2ms
+[2025-11-11 09:38:10] [32minfo[39m : Server listening on port: 3000
+[2025-11-11 09:38:39] [32minfo[39m : [GET /pizzas/name/eq/Illegal] - 0 record(s) affected.  19ms
+[2025-11-11 09:38:39] [32minfo[39m : [POST /pizzas] - 1 record(s) affected.  2ms
+[2025-11-11 09:38:39] [32minfo[39m : [GET /pizzas] - 12 record(s) affected.  2ms
+[2025-11-11 09:39:50] [32minfo[39m : [GET /pizzas] - 12 record(s) affected.  2ms
+[2025-11-11 09:40:31] [32minfo[39m : [GET /pizzas/name/eq/fsg] - 0 record(s) affected.  1ms
+[2025-11-11 09:40:31] [32minfo[39m : [POST /pizzas] - 1 record(s) affected.  3ms
+[2025-11-11 09:40:31] [32minfo[39m : [GET /pizzas] - 13 record(s) affected.  1ms
+[2025-11-11 09:53:36] [32minfo[39m : [GET /pizzas] - 13 record(s) affected.  2ms
+[2025-11-11 09:53:47] [32minfo[39m : [GET /pizzas/name/eq/Fajnev] - 0 record(s) affected.  0ms
+[2025-11-11 09:53:47] [32minfo[39m : [POST /pizzas] - 1 record(s) affected.  2ms
+[2025-11-11 09:53:47] [32minfo[39m : [GET /pizzas] - 14 record(s) affected.  0ms
+[2025-11-11 09:55:26] [32minfo[39m : [GET /pizzas] - 14 record(s) affected.  1ms
+[2025-11-11 09:55:38] [32minfo[39m : [GET /pizzas/name/eq/aaaa] - 0 record(s) affected.  1ms
+[2025-11-11 09:55:38] [32minfo[39m : [POST /pizzas] - 1 record(s) affected.  2ms
+[2025-11-11 09:55:38] [32minfo[39m : [GET /pizzas] - 15 record(s) affected.  1ms
+[2025-11-11 09:57:14] [32minfo[39m : [GET /pizzas] - 15 record(s) affected.  1ms
+[2025-11-11 09:58:57] [32minfo[39m : [GET /pizzas/name/eq/ful] - 0 record(s) affected.  1ms
+[2025-11-11 09:58:57] [32minfo[39m : [POST /pizzas] - 1 record(s) affected.  1ms
+[2025-11-11 09:58:57] [32minfo[39m : [GET /pizzas] - 16 record(s) affected.  1ms
+[2025-11-11 10:00:24] [32minfo[39m : Server listening on port: 3000

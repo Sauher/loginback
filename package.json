@@ -16,6 +16,7 @@
     "express": "^5.1.0",
     "multer": "^2.0.2",
     "mysql": "^2.18.1",
+    "path": "^0.12.7",
     "winston": "^3.18.3"
   },
   "devDependencies": {
