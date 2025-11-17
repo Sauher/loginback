@@ -80,6 +80,9 @@ router.post('/:table/login',(req,res)=>{
             res.status(400).send({error: 'Hibás belépési adatok!'})
             return;
         }
+        if(results[0].status == 0){
+            res.status(400).send({error: 'Inaktívált felhasználó!'})
+        }
         res.status(200).json(results)
     }, req);
 })
