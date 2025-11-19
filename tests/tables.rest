@@ -68,3 +68,18 @@ Content-Type: application/json
 
 GET  {{url}}/users/role/like/admin
 Content-Type: application/json
+
+### EMAIL
+
+POST {{url}}/sendmail
+Content-Type: application/json
+
+{
+    "template": "registration",
+    "to": "czakocsongor@turr.hu",
+    "subject": "Hálókapitány",
+    "data":{"username": "Sanyi",
+    "email": "sanyi@gmail.com",
+    "password":"Sanyi123.",
+    "url": "http://localhost:4200"}
+}
